@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;  /* خلفية سوداء */
+    color: white;  /* الكتابة باللون الأبيض */
+    margin: 0;
+    padding: 0;
+    height: 100vh;  /* جعل الصفحة بالكامل تأخذ كامل ارتفاع الشاشة */
+    display: flex;
+    justify-content: center;  /* تمركز المحتوى أفقيًا */
+    align-items: center;  /* تمركز المحتوى عموديًا */
+    text-align: center;
+}
+
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+    border-bottom: 2px solid #ccc;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+#chat {
+    margin-top: 30px;
+    width: 80%;  /* جعل محتوى المحادثة يستغل عرض الصفحة */
+}
+
+textarea {
+    border: 2px solid #0066cc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+#chatResponse {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#messageFrame {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #0066cc;  /* وضع الإطار حول الرسالة */
+    display: inline-block;
+    margin-bottom: 20px;
+}
